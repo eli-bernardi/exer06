@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./progRandom.js"defer></script>
+    <script src="./progRandom.js" defer></script>
     <link rel="shortcut icon" href="./principal.png" type="image/x-icon">
-    <title> MATH RANDOM </title>
+    <title> MATH RANDOM - 02 </title>
 </head>
 
 <body>
     <h1> Trabalhando com a biblioteca de valores aleatórios</h1>
-    <label for="num"> Digite a quantida de números aleatórios</label>
-    <input type="number" id="num"> <br><br>
+
+    <label for="qtde"> Digite a quantida de números aleatórios</label>
+    <input type="number" id="qtde"> <br><br>
+
+    <label for="num"> Digite o maior número aleatórios (máx - 100) </label>
+    <input type="number" id="max" placeholder=" Máximo"> <br><br>
+
+    <label for="num"> Digite o menor número aleatórios (minímo - 1) </label>
+    <input type="number" id="min" placeholder=" Minímo"> <br><br>
+
     <button onclick="gerarNum()">GERAR</button>
     <p id="res"></p>
 
